@@ -1,0 +1,125 @@
+:root {
+  --dark-green-color: rgb(128, 170, 128);
+  --ligth-black-color: rgb(26, 23, 23);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #ebe9e9;
+}
+
+.container-centered {
+  margin: auto;
+  width: auto;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  line-height: 2;
+  background-color: #ffffff;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.left-column {
+  width: auto;
+  color: #777777;
+  background-color: #f5f5f5;
+}
+
+.right-column {
+  width: auto;
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+header img {
+  width: 165px;
+  height: 235px;
+  border-radius: 10%;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+header h2 {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 15px 40px;
+}
+
+main h3 {
+  width: 136px;
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: var(--dark-green-color);
+}
+
+main .contacts h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+.right-column h3 {
+  flex: 1;
+  vertical-align: top;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--ligth-black-color);
+  border-bottom: 2px solid var(--ligth-black-color);
+}
+
+.education p {
+  margin-left: 45px;
+}
+
+.code-example p {
+  margin-left: 45px;
+}
+
+pre {
+  margin-top: 40px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #f5f5f5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .github-icon {
+  margin-right: 5px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+}
